@@ -1,0 +1,103 @@
+================= System Security Check =====================
+ 
+****** Liste des fichiers world writable ******
+/dev/null
+/dev/zero
+/dev/full
+/dev/random
+/dev/urandom
+/dev/tty
+/dev/fuse
+/dev/ptmx
+/dev/net/tun
+/dev/input/by-path/platform-i8042-serio-1-mouse
+/dev/input/by-path/platform-i8042-serio-0-event-kbd
+/dev/input/by-path/platform-i8042-serio-1-event-mouse
+/dev/input/by-path/pci-0000:00:06.0-usb-0:1:1.0-mouse
+/dev/input/by-path/pci-0000:00:06.0-usbv1-0:1:1.0-mouse
+/dev/input/by-path/pci-0000:00:06.0-usbv1-0:1:1.0-event-mouse
+/dev/input/by-path/pci-0000:00:06.0-usb-0:1:1.0-event-mouse
+/dev/input/by-path/pci-0000:00:04.0-mouse
+/dev/input/by-path/pci-0000:00:04.0-event-mouse
+/dev/input/by-id/usb-VirtualBox_USB_Tablet-mouse
+/dev/input/by-id/usb-VirtualBox_USB_Tablet-event-mouse
+/dev/fd
+/dev/stdin
+/dev/stdout
+/dev/stderr
+/dev/char/13:65
+/dev/char/13:64
+/dev/char/189:128
+/dev/char/21:0
+/dev/char/243:0
+/dev/char/248:0
+/dev/char/13:66
+/dev/char/4:64
+/dev/char/4:65
+/dev/char/4:78
+/dev/char/4:77
+/dev/char/4:79
+/dev/char/4:80
+/dev/char/4:81
+/dev/char/4:66
+/dev/char/4:76
+ 
+****** Liste des utilisateurs ******
+nobody
+vboxuser
+jerry
+test
+ 
+=============================================================
+==================== Audit Disk Usage =======================
+ 
+ *** Les plus gros fichiers de nobody *** 
+ *** Les plus gros fichiers de vboxuser *** 
+254244	/home/vboxuser
+224948	/home/vboxuser/snap
+215960	/home/vboxuser/snap/firefox
+215788	/home/vboxuser/snap/firefox/common
+156876	/home/vboxuser/snap/firefox/common/.cache
+155332	/home/vboxuser/snap/firefox/common/.cache/mozilla
+155328	/home/vboxuser/snap/firefox/common/.cache/mozilla/firefox
+155324	/home/vboxuser/snap/firefox/common/.cache/mozilla/firefox/4jkmd3jd.default
+116324	/home/vboxuser/snap/firefox/common/.cache/mozilla/firefox/4jkmd3jd.default/cache2
+115952	/home/vboxuser/snap/firefox/common/.cache/mozilla/firefox/4jkmd3jd.default/cache2/entries
+ *** Les plus gros fichiers de jerry *** 
+ *** Les plus gros fichiers de test *** 
+4	/home/test
+****** Disk Usage du répertoire /home  ******
+254244	/home/vboxuser
+224948	/home/vboxuser/snap
+215960	/home/vboxuser/snap/firefox
+215788	/home/vboxuser/snap/firefox/common
+156876	/home/vboxuser/snap/firefox/common/.cache
+155332	/home/vboxuser/snap/firefox/common/.cache/mozilla
+155328	/home/vboxuser/snap/firefox/common/.cache/mozilla/firefox
+155324	/home/vboxuser/snap/firefox/common/.cache/mozilla/firefox/4jkmd3jd.default
+116324	/home/vboxuser/snap/firefox/common/.cache/mozilla/firefox/4jkmd3jd.default/cache2
+115952	/home/vboxuser/snap/firefox/common/.cache/mozilla/firefox/4jkmd3jd.default/cache2/entries
+****** Disk usage du répertoire /tmp ******
+4	/tmp/systemd-private-6d60b5105e874d248029f1f51079893d-vnstat.service-bVl64Y
+4	/tmp/systemd-private-6d60b5105e874d248029f1f51079893d-upower.service-sPDDUo
+4	/tmp/systemd-private-6d60b5105e874d248029f1f51079893d-systemd-timesyncd.service-QOrSSa
+4	/tmp/systemd-private-6d60b5105e874d248029f1f51079893d-systemd-resolved.service-p4DyvK
+4	/tmp/systemd-private-6d60b5105e874d248029f1f51079893d-systemd-oomd.service-u6yLzA
+4	/tmp/systemd-private-6d60b5105e874d248029f1f51079893d-systemd-logind.service-jxDP0A
+4	/tmp/systemd-private-6d60b5105e874d248029f1f51079893d-switcheroo-control.service-BB0Fyk
+4	/tmp/systemd-private-6d60b5105e874d248029f1f51079893d-power-profiles-daemon.service-6j6PyY
+4	/tmp/systemd-private-6d60b5105e874d248029f1f51079893d-polkit.service-p2ws8G
+4	/tmp/systemd-private-6d60b5105e874d248029f1f51079893d-ModemManager.service-Vh0jmN
+****** Disk usage du répertoire /var ******
+1952200	/var/lib
+1695288	/var/lib/snapd
+1416480	/var/lib/snapd/snaps
+521192	/var/cache
+517216	/var/lib/snapd/snaps/gnome-42-2204_176.snap
+476680	/var/cache/apt
+450576	/var/log
+434460	/var/log/journal
+434456	/var/log/journal/498c212d656946c3935ed2a1e8aa9e42
+378668	/var/cache/apt/archives
+ 
+=============================================================

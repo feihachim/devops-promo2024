@@ -1,0 +1,10 @@
+grep 'http*' /etc/services
+grep -wi 'http' /etc/services
+grep -v 'home' /etc/passwd
+grep 'sbin*' /etc/passwd | wc -l
+grep -r 'vbo'  /etc 2> /dev/null
+grep -nr 'vbo'  /etc 2> /dev/null
+grep -ni '.iana.'  /etc/services 2> /dev/null
+cut -d':' -f 1,3 /etc/group
+ls -l /etc | awk '{print ,,}'
+ls -l /etc | awk '{print $1,$5,$9}'
