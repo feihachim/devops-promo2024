@@ -1,0 +1,17 @@
+{
+    "products": {
+      "1": "Café noir",
+      "2": "Café au lait",
+      "3": "Thé",
+      "4": "Chocolat au lait",
+      "5": "Cappuccino"
+    },
+    "prices": {
+      "1": 30,
+      "2": 25,
+      "3": 20,
+      "4": 35,
+      "5": 40
+    },
+    "pieces": [50, 20, 10, 5]
+  }

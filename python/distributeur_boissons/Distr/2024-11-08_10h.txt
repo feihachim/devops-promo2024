@@ -1,0 +1,10 @@
+1
+Café noir
+2
+Café au lait
+3
+Thé
+4
+Chocolat au lait
+5
+Cappuccino

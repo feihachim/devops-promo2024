@@ -1,0 +1,6 @@
+Café noir 210
+Café au lait 50
+Thé 20
+Chocolat au lait 105
+Cappuccino 120
+Recette du jour: 505
